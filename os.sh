@@ -14,8 +14,11 @@ case ${result} in
 	"Red")
 		echo "是Red Hat Enterprise Linux"
 		;;
+	"Arch")
+		echo "是Arch Linux"
+		;;
 	*)
-    	echo "Your choose is error!"
+    	echo "other linux"
     	exit 1 
     	;;
 esac
